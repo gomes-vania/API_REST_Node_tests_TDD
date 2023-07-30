@@ -1,4 +1,4 @@
-// const superTest = require('supertest');
+const superTest = require('supertest');
 
 // const request = superTest('http://localhost:3001');
 // test('Deve responder na porta 3001', () => {
@@ -7,7 +7,6 @@
 //   //verificar se a resposta foi o status 200
 // });
 
-// Path: test/server.test.js
 const superTest = require('supertest');
 // importar o app
 const app = require('../src/app');
